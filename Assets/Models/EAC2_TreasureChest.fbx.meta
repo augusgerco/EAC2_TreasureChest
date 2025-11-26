@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: 48f7ebb9b1f270546b520a062b21cf9f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Chain
+    100002: Diamond
+    100004: DPart
+    100006: DVis
+    100008: //RootNode
+    100010: Handles
+    100012: PirateSticker
+    100014: Ruby
+    100016: UPart
+    100018: ValuableObjects
+    400000: Chain
+    400002: Diamond
+    400004: DPart
+    400006: DVis
+    400008: //RootNode
+    400010: Handles
+    400012: PirateSticker
+    400014: Ruby
+    400016: UPart
+    400018: ValuableObjects
+    2100000: Gold
+    2100002: Material.001
+    2100004: DCSilvermetal.002
+    2100006: DCWood.002
+    2100008: Silvermetal.002
+    2100010: Gris.002
+    2100012: Diamond
+    2100014: HandlesSilvermetal.002
+    2100016: Material.004
+    2100018: "Rub\xED"
+    2100020: UCSilvermetal.002
+    2100022: UCWood.002
+    2100024: Material.002
+    2100026: Material
+    2300000: Chain
+    2300002: Diamond
+    2300004: DPart
+    2300006: DVis
+    2300008: Handles
+    2300010: PirateSticker
+    2300012: Ruby
+    2300014: UPart
+    2300016: ValuableObjects
+    3300000: Chain
+    3300002: Diamond
+    3300004: DPart
+    3300006: DVis
+    3300008: Handles
+    3300010: PirateSticker
+    3300012: Ruby
+    3300014: UPart
+    3300016: ValuableObjects
+    4300000: Chain
+    4300002: DPart
+    4300004: DVis
+    4300006: Diamond
+    4300008: Handles
+    4300010: PirateSticker
+    4300012: Ruby
+    4300014: UPart
+    4300016: ValuableObjects
+    7400000: Chain|ChainAction
+    7400002: Chain|DiamondAction
+    7400004: Chain|MonedaDorada.005Action
+    7400006: Chain|RubyAction
+    7400008: Chain|UPartAction
+    7400010: Diamond|ChainAction
+    7400012: Diamond|DiamondAction
+    7400014: Diamond|MonedaDorada.005Action
+    7400016: Diamond|RubyAction
+    7400018: Diamond|UPartAction
+    7400020: Ruby|ChainAction
+    7400022: Ruby|DiamondAction
+    7400024: Ruby|MonedaDorada.005Action
+    7400026: Ruby|RubyAction
+    7400028: Ruby|UPartAction
+    7400030: UPart|ChainAction
+    7400032: UPart|DiamondAction
+    7400034: UPart|MonedaDorada.005Action
+    7400036: UPart|RubyAction
+    7400038: UPart|UPartAction
+    7400040: ValuableObjects|ChainAction
+    7400042: ValuableObjects|DiamondAction
+    7400044: ValuableObjects|MonedaDorada.005Action
+    7400046: ValuableObjects|RubyAction
+    7400048: ValuableObjects|UPartAction
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DCSilvermetal.002
+    second: {fileID: 2100000, guid: a031a08f484b0ca41a76ce09cd5a602d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DCWood.002
+    second: {fileID: 2100000, guid: 7e70dec6b46d1724a8f6f7821656f394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diamond
+    second: {fileID: 2100000, guid: d5efeee35d97aa94fb9f5f74c4ed0ef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: e7fa0e6214eb46e40aacfe0271e1af35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris.002
+    second: {fileID: 2100000, guid: c45dec8ae147fa243915bec5ae560a52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HandlesSilvermetal.002
+    second: {fileID: 2100000, guid: 39528b4391d49b249a4bb8b9bbf22a08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 2b49f2a9a5af2f14bb0b631439b7f67d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 06b0f4ca816319d4db6dbf630736aaed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: daa94a074547e904895ee9ebaf87229c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: c3f07de0c3379a14eab432339847d210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Rub\xED"
+    second: {fileID: 2100000, guid: 2a917984443f6a245bff6b5b8a5ef385, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silvermetal.002
+    second: {fileID: 2100000, guid: 5d1089c6e8abd7e4c9d28a6dec7196bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UCSilvermetal.002
+    second: {fileID: 2100000, guid: b2465b10d7a246b44a634a46a166b1bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UCWood.002
+    second: {fileID: 2100000, guid: 472929a179385264c9b5da666096b992, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Suciedad cofre
+    second: {fileID: 2800000, guid: 0dcb494328293fe4cb8a7357013ac98e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Suciedad cofre_normal
+    second: {fileID: 2800000, guid: 628e1bdd5a195a64ca926e423cdebecc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Suciedad madera
+    second: {fileID: 2800000, guid: 452b5fc823d66974b8567cd27f74cd5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Suciedad madera_normal
+    second: {fileID: 2800000, guid: 49e46bd11fdb93e4eb27c06867343f31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oro
+    second: {fileID: 2800000, guid: 8a3acc822101c7c4ab92a9158be6e222, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pirante
+    second: {fileID: 2800000, guid: 3c389e2e7c5cfbf4ea9eb841b7abe30f, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
