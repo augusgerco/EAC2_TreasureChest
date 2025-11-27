@@ -1,38 +1,44 @@
 fileFormatVersion: 2
-guid: 48f7ebb9b1f270546b520a062b21cf9f
+guid: ae28f50fffdcee2429a5173959f9acbc
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Chain
-    100002: DPart
-    100004: DVis
-    100006: //RootNode
-    100008: Handles
-    100010: PirateSticker
-    100012: Treasure
-    100014: UPart
-    400000: Chain
-    400002: DPart
-    400004: DVis
-    400006: //RootNode
-    400008: Handles
-    400010: PirateSticker
-    400012: Treasure
-    400014: UPart
-    2100000: Goldenchain
-    2100002: Goldenchain2
-    2100004: DCSilvermetal
-    2100006: DCWood
-    2100008: SilvermetalVIS
-    2100010: GreyVIS
-    2100012: HandlesSilvermetal
-    2100014: PirateSticker
-    2100016: "Rub\xED"
-    2100018: GoldenCoin
-    2100020: Diamond
-    2100022: UCSilvermetal
-    2100024: UCWood
-    2100026: UCDirtymetal
+    100000: Armature
+    100002: Bone
+    100004: Bone_end
+    100006: Chain
+    100008: DPart
+    100010: DVis
+    100012: //RootNode
+    100014: Handles
+    100016: PirateSticker
+    100018: Treasure
+    100020: UPart
+    400000: Armature
+    400002: Bone
+    400004: Bone_end
+    400006: Chain
+    400008: DPart
+    400010: DVis
+    400012: //RootNode
+    400014: Handles
+    400016: PirateSticker
+    400018: Treasure
+    400020: UPart
+    2100000: UCSilvermetal
+    2100002: UCWood
+    2100004: UCDirtymetal
+    2100006: Goldenchain
+    2100008: Goldenchain2
+    2100010: DCSilvermetal
+    2100012: DCWood
+    2100014: SilvermetalVIS
+    2100016: GreyVIS
+    2100018: HandlesSilvermetal
+    2100020: PirateSticker
+    2100022: "Rub\xED"
+    2100024: GoldenCoin
+    2100026: Diamond
     2300000: Chain
     2300002: DPart
     2300004: DVis
@@ -47,19 +53,26 @@ ModelImporter:
     3300008: PirateSticker
     3300010: Treasure
     3300012: UPart
-    4300000: Chain
-    4300002: DPart
-    4300004: DVis
-    4300006: Handles
-    4300008: PirateSticker
-    4300010: Treasure
-    4300012: UPart
-    7400000: Chain|ArmatureAction.001
-    7400002: Chain|ChainAction
-    7400004: Treasure|ArmatureAction.001
-    7400006: Treasure|RubyAction
-    7400008: UPart|ArmatureAction.001
-    7400010: UPart|UPartAction
+    4300000: UPart
+    4300002: Chain
+    4300004: DPart
+    4300006: DVis
+    4300008: Handles
+    4300010: PirateSticker
+    4300012: Treasure
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    7400004: Armature|ArmatureAction.002
+    7400006: Armature|ArmatureAction.003
+    7400008: Chain|ArmatureAction.001
+    7400010: Chain|ArmatureAction.002
+    7400012: Chain|ArmatureAction.003
+    7400014: Treasure|ArmatureAction.001
+    7400016: Treasure|ArmatureAction.002
+    7400018: Treasure|ArmatureAction.003
+    7400020: UPart|ArmatureAction.001
+    7400022: UPart|ArmatureAction.002
+    7400024: UPart|ArmatureAction.003
     9500000: //RootNode
   externalObjects:
   - first:
@@ -136,32 +149,32 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad cofre
-    second: {fileID: 2800000, guid: cf7d14f8f24f37843b00417627b2fff5, type: 3}
+    second: {fileID: 2800000, guid: 8538f0cb80bac5849b39a5ccc1275e0d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad cofre_normal
-    second: {fileID: 2800000, guid: 3faf47617827ce448b9f348a9c6cf6e3, type: 3}
+    second: {fileID: 2800000, guid: db4289d51e092054ab0c72b27220b30f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad madera
-    second: {fileID: 2800000, guid: 4e02b40a58561d04ab67605781fa991d, type: 3}
+    second: {fileID: 2800000, guid: 195812b93cc0a0846b35e434474e13ce, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad madera_normal
-    second: {fileID: 2800000, guid: 89715282d22336a4796f9b666409ff31, type: 3}
+    second: {fileID: 2800000, guid: 374c8c88696b0da409968ea909356657, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: oro
-    second: {fileID: 2800000, guid: 95497e9e3cf511e4599c4fb633644961, type: 3}
+    second: {fileID: 2800000, guid: 8cd07603dd6bb6a4a8514278430c3e52, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: pirante
-    second: {fileID: 2800000, guid: 28ad32342a56aed45ad4626e2d10fcaf, type: 3}
+    second: {fileID: 2800000, guid: 33043b8feea86f74aa9943f52158d0f0, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -190,8 +203,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: UPart|ArmatureAction.001
-      takeName: UPart|ArmatureAction.001
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
       firstFrame: 0
       lastFrame: 119
       wrapMode: 0
