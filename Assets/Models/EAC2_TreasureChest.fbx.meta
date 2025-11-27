@@ -4,104 +4,74 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Chain
-    100002: Diamond
-    100004: DPart
-    100006: DVis
-    100008: //RootNode
-    100010: Handles
-    100012: PirateSticker
-    100014: Ruby
-    100016: UPart
-    100018: ValuableObjects
+    100002: DPart
+    100004: DVis
+    100006: //RootNode
+    100008: Handles
+    100010: PirateSticker
+    100012: Treasure
+    100014: UPart
     400000: Chain
-    400002: Diamond
-    400004: DPart
-    400006: DVis
-    400008: //RootNode
-    400010: Handles
-    400012: PirateSticker
-    400014: Ruby
-    400016: UPart
-    400018: ValuableObjects
-    2100000: Gold
-    2100002: Material.001
-    2100004: DCSilvermetal.002
-    2100006: DCWood.002
-    2100008: Silvermetal.002
-    2100010: Gris.002
-    2100012: Diamond
-    2100014: HandlesSilvermetal.002
-    2100016: Material.004
-    2100018: "Rub\xED"
-    2100020: UCSilvermetal.002
-    2100022: UCWood.002
-    2100024: Material.002
-    2100026: Material
+    400002: DPart
+    400004: DVis
+    400006: //RootNode
+    400008: Handles
+    400010: PirateSticker
+    400012: Treasure
+    400014: UPart
+    2100000: Goldenchain
+    2100002: Goldenchain2
+    2100004: DCSilvermetal
+    2100006: DCWood
+    2100008: SilvermetalVIS
+    2100010: GreyVIS
+    2100012: HandlesSilvermetal
+    2100014: PirateSticker
+    2100016: "Rub\xED"
+    2100018: GoldenCoin
+    2100020: Diamond
+    2100022: UCSilvermetal
+    2100024: UCWood
+    2100026: UCDirtymetal
     2300000: Chain
-    2300002: Diamond
-    2300004: DPart
-    2300006: DVis
-    2300008: Handles
-    2300010: PirateSticker
-    2300012: Ruby
-    2300014: UPart
-    2300016: ValuableObjects
+    2300002: DPart
+    2300004: DVis
+    2300006: Handles
+    2300008: PirateSticker
+    2300010: Treasure
+    2300012: UPart
     3300000: Chain
-    3300002: Diamond
-    3300004: DPart
-    3300006: DVis
-    3300008: Handles
-    3300010: PirateSticker
-    3300012: Ruby
-    3300014: UPart
-    3300016: ValuableObjects
+    3300002: DPart
+    3300004: DVis
+    3300006: Handles
+    3300008: PirateSticker
+    3300010: Treasure
+    3300012: UPart
     4300000: Chain
     4300002: DPart
     4300004: DVis
-    4300006: Diamond
-    4300008: Handles
-    4300010: PirateSticker
-    4300012: Ruby
-    4300014: UPart
-    4300016: ValuableObjects
-    7400000: Chain|ChainAction
-    7400002: Chain|DiamondAction
-    7400004: Chain|MonedaDorada.005Action
-    7400006: Chain|RubyAction
-    7400008: Chain|UPartAction
-    7400010: Diamond|ChainAction
-    7400012: Diamond|DiamondAction
-    7400014: Diamond|MonedaDorada.005Action
-    7400016: Diamond|RubyAction
-    7400018: Diamond|UPartAction
-    7400020: Ruby|ChainAction
-    7400022: Ruby|DiamondAction
-    7400024: Ruby|MonedaDorada.005Action
-    7400026: Ruby|RubyAction
-    7400028: Ruby|UPartAction
-    7400030: UPart|ChainAction
-    7400032: UPart|DiamondAction
-    7400034: UPart|MonedaDorada.005Action
-    7400036: UPart|RubyAction
-    7400038: UPart|UPartAction
-    7400040: ValuableObjects|ChainAction
-    7400042: ValuableObjects|DiamondAction
-    7400044: ValuableObjects|MonedaDorada.005Action
-    7400046: ValuableObjects|RubyAction
-    7400048: ValuableObjects|UPartAction
+    4300006: Handles
+    4300008: PirateSticker
+    4300010: Treasure
+    4300012: UPart
+    7400000: Chain|ArmatureAction.001
+    7400002: Chain|ChainAction
+    7400004: Treasure|ArmatureAction.001
+    7400006: Treasure|RubyAction
+    7400008: UPart|ArmatureAction.001
+    7400010: UPart|UPartAction
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: DCSilvermetal.002
-    second: {fileID: 2100000, guid: a031a08f484b0ca41a76ce09cd5a602d, type: 2}
+      name: DCSilvermetal
+    second: {fileID: 2100000, guid: 91db43a8b9c955742b8e34588e393537, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: DCWood.002
-    second: {fileID: 2100000, guid: 7e70dec6b46d1724a8f6f7821656f394, type: 2}
+      name: DCWood
+    second: {fileID: 2100000, guid: 12b0883c9310ab04fbdba7d98f729cf0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -110,37 +80,32 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Gold
-    second: {fileID: 2100000, guid: e7fa0e6214eb46e40aacfe0271e1af35, type: 2}
+      name: GoldenCoin
+    second: {fileID: 2100000, guid: efecaf72ea6f6f04686eb5ce44a9be42, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Gris.002
-    second: {fileID: 2100000, guid: c45dec8ae147fa243915bec5ae560a52, type: 2}
+      name: Goldenchain
+    second: {fileID: 2100000, guid: d5e37bf11437e814eb16f154d4d9ea58, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: HandlesSilvermetal.002
-    second: {fileID: 2100000, guid: 39528b4391d49b249a4bb8b9bbf22a08, type: 2}
+      name: Goldenchain2
+    second: {fileID: 2100000, guid: f60ba0c372b13c34f9c98dffd4ebfcc6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 2b49f2a9a5af2f14bb0b631439b7f67d, type: 2}
+      name: GreyVIS
+    second: {fileID: 2100000, guid: 6e42a33620ed1cb4189c3d0100dacb92, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 06b0f4ca816319d4db6dbf630736aaed, type: 2}
+      name: HandlesSilvermetal
+    second: {fileID: 2100000, guid: e64f4deb2a06f09448f73ed6a6643807, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: daa94a074547e904895ee9ebaf87229c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
+      name: PirateSticker
     second: {fileID: 2100000, guid: c3f07de0c3379a14eab432339847d210, type: 2}
   - first:
       type: UnityEngine:Material
@@ -150,48 +115,53 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Silvermetal.002
-    second: {fileID: 2100000, guid: 5d1089c6e8abd7e4c9d28a6dec7196bb, type: 2}
+      name: SilvermetalVIS
+    second: {fileID: 2100000, guid: 34f31c8480dee694b9378d6096e9f258, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: UCSilvermetal.002
-    second: {fileID: 2100000, guid: b2465b10d7a246b44a634a46a166b1bd, type: 2}
+      name: UCDirtymetal
+    second: {fileID: 2100000, guid: dc64a2d216b6ab34285bcb47c99b6ca0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: UCWood.002
-    second: {fileID: 2100000, guid: 472929a179385264c9b5da666096b992, type: 2}
+      name: UCSilvermetal
+    second: {fileID: 2100000, guid: 355cc4a7861940d4ba73606b54296a62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UCWood
+    second: {fileID: 2100000, guid: 7e504df24a7e4ab48b31df6972c3d76e, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad cofre
-    second: {fileID: 2800000, guid: 0dcb494328293fe4cb8a7357013ac98e, type: 3}
+    second: {fileID: 2800000, guid: cf7d14f8f24f37843b00417627b2fff5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad cofre_normal
-    second: {fileID: 2800000, guid: 628e1bdd5a195a64ca926e423cdebecc, type: 3}
+    second: {fileID: 2800000, guid: 3faf47617827ce448b9f348a9c6cf6e3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad madera
-    second: {fileID: 2800000, guid: 452b5fc823d66974b8567cd27f74cd5f, type: 3}
+    second: {fileID: 2800000, guid: 4e02b40a58561d04ab67605781fa991d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Suciedad madera_normal
-    second: {fileID: 2800000, guid: 49e46bd11fdb93e4eb27c06867343f31, type: 3}
+    second: {fileID: 2800000, guid: 89715282d22336a4796f9b666409ff31, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: oro
-    second: {fileID: 2800000, guid: 8a3acc822101c7c4ab92a9158be6e222, type: 3}
+    second: {fileID: 2800000, guid: 95497e9e3cf511e4599c4fb633644961, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: pirante
-    second: {fileID: 2800000, guid: 3c389e2e7c5cfbf4ea9eb841b7abe30f, type: 3}
+    second: {fileID: 2800000, guid: 28ad32342a56aed45ad4626e2d10fcaf, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -218,7 +188,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: UPart|ArmatureAction.001
+      takeName: UPart|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
